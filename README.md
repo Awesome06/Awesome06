@@ -8,7 +8,7 @@ Systems software engineer focused on low-level infrastructure, database storage 
 
 ---
 
-### 🔨 Core Systems & Projects
+### Core Systems & Projects
 
 - **[Forest Storage Engine](https://github.com/Awesome06/forest)**  
   A crash-safe Log-Structured Merge-Tree (LSM-Tree) key-value store in Go. Features a zero-allocation TCP binary protocol parser, lock-free concurrent SkipList MemTable, WAL recovery, and tunable Bloom filters.
@@ -21,7 +21,7 @@ Systems software engineer focused on low-level infrastructure, database storage 
 
 ---
 
-### 🌐 Open Source & Engineering Milestones
+### Open Source & Engineering Milestones
 
 - **Apache Arrow (`apache/arrow`)**: Merged core C++ contribution optimizing string view comparisons ([PR #55171](https://github.com/apache/arrow/pull/55171)).
 - **ICPC Regionalist**: AIR 1443 across 4,500+ teams and Institute Topper in ICPC Prelims with team *LambdaSoup*.
@@ -29,7 +29,7 @@ Systems software engineer focused on low-level infrastructure, database storage 
 
 ---
 
-### 🛠️ Technical Arsenal
+### Technical Arsenal
 
 | Layer | Technologies & Tools |
 | :--- | :--- |
@@ -40,9 +40,10 @@ Systems software engineer focused on low-level infrastructure, database storage 
 
 ---
 
-### 📊 GitHub Activity
+### Contribution Activity
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Awesome06&show_icons=true&theme=transparent&hide_border=true&title_color=0969da&text_color=57606a&icon_color=0969da" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Awesome06&layout=compact&theme=transparent&hide_border=true&title_color=0969da&text_color=57606a" alt="Top Languages" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Awesome06/Awesome06/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Awesome06/Awesome06/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Awesome06/Awesome06/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
