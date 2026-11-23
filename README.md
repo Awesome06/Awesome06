@@ -1,31 +1,41 @@
 # Mrigank Bhatnagar
 
-Systems software engineer focused on low-level infrastructure, database storage engines, and high-throughput network runtimes. Passionate about zero-allocation architectures, Linux internals, and deterministic agentic execution.
+Systems software engineer focused on low-level infrastructure, database storage engines, and high-throughput network runtimes. Specializing in zero-allocation architectures, Linux internals, and deterministic agentic execution.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Awesome06)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mrigank-bhatnagar/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:Bhatnagar.mrigank2006@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-mrigankbhatnagar.dev-1B6B99?style=flat-square&logo=safari&logoColor=white)](https://mrigankbhatnagar.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-Awesome06-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Awesome06)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mrigank--bhatnagar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrigank-bhatnagar)
+[![Email](https://img.shields.io/badge/Email-bhatnagar.mrigank2006@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:bhatnagar.mrigank2006@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Knight%20(Top%201.6%25)-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/vgF0f3VhNO/)
 
 ---
 
-### Core Systems & Projects
+### Core Systems & Flagship Projects
 
-- **[Forest Storage Engine](https://github.com/Awesome06/forest)**  
-  A crash-safe Log-Structured Merge-Tree (LSM-Tree) key-value store in Go. Features a zero-allocation TCP binary protocol parser, lock-free concurrent SkipList MemTable, WAL recovery, and tunable Bloom filters.
+- **[Fracture Benchmarking Suite](https://github.com/switchstonedev/fracture-bench)** (Rust, Linux, cgroups v2)  
+  Open-loop vector database benchmarking harness using hardware Timestamp Counter (TSC) polling instead of kernel `nanosleep` to eliminate OS scheduler jitter. Sustains sub-microsecond arrival pacing and exposed true p99.9 tail latency collapses up to 42.8x higher than conventional closed-loop benchmarks.
 
-- **[Aegis](https://github.com/Awesome06/aegis)**  
-  High-concurrency L3–L7 Zero Trust forward proxy and traffic interceptor. Implements byte-level TLS 1.3 ClientHello SNI extraction, a lock-free Radix Tree routing plane, custom RFC 1035 UDP DNS resolution, and zero-allocation Linux `syscall.Splice` TCP relays.
+- **[Argus TradeGuard](https://github.com/Awesome06/argus-tradeguard)** (C++20, Linux, Python, DuckDB)  
+  High-frequency electronic pre-trade risk filter. Replaces mutexes with lock-free SeqLocks to eliminate thread contention and swaps floating-point arithmetic for integer fixed-point math to guarantee deterministic nanosecond validation. Evaluates 50,000+ orders/s at sub-microsecond p99 latency with automated cancel-on-disconnect protection.
 
-- **[NexusGraph](https://github.com/Awesome06/nexus-graph)**  
-  Multi-agent incident remediation swarm and distributed knowledge graph built on FalkorDB and GraphBLAS sparse matrix linear algebra.
+- **[Forest Storage Engine](https://github.com/Awesome06/Forest_DatabaseEngine)** (Go, TCP/UDP, TLS 1.3)  
+  Crash-safe Log-Structured Merge-Tree (LSM-Tree) key-value engine. Swaps mutex-guarded maps for concurrent lock-free SkipLists to eliminate multi-core write contention, and uses raw binary TCP framing over gRPC to achieve 5.85ns decoding latency and zero heap allocations.
+
+- **[Aegis Zero Trust Proxy](https://github.com/Awesome06/aegis-proxy)** (Go, TCP/UDP, TLS 1.3)  
+  High-concurrency L3–L7 Zero Trust forward proxy. Uses lock-free Radix Trees over hash tables for deterministic O(k) CIDR prefix routing, inspecting byte-level TLS 1.3 ClientHello Server Name Indication (SNI) and DNS packets without terminating cryptographic sessions.
+
+- **[NexusGraph](https://github.com/Awesome06/nexusgraph)** (TypeScript, Next.js, FalkorDB)  
+  Autonomous multi-agent incident triage swarm. Leverages FalkorDB graph traversal over relational SQL JOINs to trace multi-hop microservice dependency blast radius in O(1) time, orchestrating automated diagnostics via Model Context Protocol (MCP).
 
 ---
 
 ### Open Source & Engineering Milestones
 
-- **Apache Arrow (`apache/arrow`)**: Merged core C++ contribution optimizing string view comparisons ([PR #55171](https://github.com/apache/arrow/pull/55171)).
-- **ICPC Regionalist**: AIR 1443 across 4,500+ teams and Institute Topper in ICPC Prelims with team *LambdaSoup*.
-- **Algorithmic Problem Solving**: 1,500+ problems solved across LeetCode, Codeforces, and CodeChef focusing on graph theory, dynamic programming, and data structure design.
+- **Apache Arrow (`apache/arrow`)**: Core C++ contributor. Merged contributions implementing string view equality comparison kernels ([PR #55171](https://github.com/apache/arrow/pull/55171)) and defaulting Parquet V2 data pages ([PR #55453](https://github.com/apache/arrow/pull/55453)), with active reviews on IPC buffer bounds validation ([PR #55671](https://github.com/apache/arrow/pull/55671)).
+- **Apache DataFusion (`apache/datafusion` & `datafusion-python`)**: Upstream open-source contributions across core columnar SQL query execution and Python engine bindings.
+- **Google FlatBuffers (`google/flatbuffers`)**: Merged contributions to cross-platform serialization compiler infrastructure.
+- **ICPC Regionalist**: Qualified for ICPC Asia West Kanpur Regional (AIR 1443 across 4,500+ teams) and 2x University Topper in ICPC Prelims with team *LambdaSoup*.
+- **Competitive Programming Pedigree**: INOI Qualifier, LeetCode Knight (Top 1.6%), and 1,500+ algorithmic problems solved across LeetCode, Codeforces, and CodeChef.
 
 ---
 
@@ -33,10 +43,10 @@ Systems software engineer focused on low-level infrastructure, database storage 
 
 | Layer | Technologies & Tools |
 | :--- | :--- |
-| **Languages** | C++20, Go 1.22+, Python, MIPS Assembly, SQL, TypeScript |
-| **Systems & Networking** | Linux Internals, POSIX, eBPF/Sockets, TCP/UDP, TLS 1.3, Docker Sandboxing |
-| **Storage & Data Engines** | LSM-Trees, Write-Ahead Logs, FalkorDB, PostgreSQL, Redis, DuckDB |
-| **Compilers & Tooling** | Tree-sitter, Git, GDB, Valgrind, CMake, Linux / WSL2 |
+| **Languages** | C++20, Go 1.22+, Rust, Python, SQL, TypeScript, MIPS Assembly |
+| **Systems & Networking** | Linux Internals, POSIX, eBPF, TCP/UDP, TLS 1.3, cgroups v2, Docker Sandboxing |
+| **Storage & Data Engines** | LSM-Trees, Write-Ahead Logs, FalkorDB, DuckDB, PostgreSQL, Redis, SQLite |
+| **Compilers & Tooling** | CMake, GCC/Clang, GDB, Valgrind, Tree-sitter, Git, Linux / WSL2 |
 
 ---
 
